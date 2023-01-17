@@ -15,7 +15,7 @@ dependencies:
   - boost==1.74.0
   - boost-cpp==1.74.0
   - swig
-  - quantlib 
-  - quantlib-python
+  - quantlib==1.27
+  - quantlib-python==1.27
   - jupyter
   - jupytext
