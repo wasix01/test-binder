@@ -12,9 +12,9 @@ dependencies:
   - bokeh
   - dask
   - psycopg2
-  - boost 
-  - boost-cpp 
-  - libboost 
+  - boost==1.74.0
+  - boost-cpp==1.74.0
+  - libboost==1.74.0 
   - swig
   - quantlib 
   - quantlib-python
