@@ -12,3 +12,8 @@ dependencies:
   - bokeh
   - dask
   - QuantLib
+  - jupyter
+  - jupytext
+  - pandas
+  - numpy
+  - matplotlib
