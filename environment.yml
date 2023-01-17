@@ -14,7 +14,6 @@ dependencies:
   - psycopg2
   - boost==1.74.0
   - boost-cpp==1.74.0
-  - libboost
   - swig
   - quantlib 
   - quantlib-python
