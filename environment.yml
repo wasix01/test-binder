@@ -13,6 +13,7 @@ dependencies:
   - dask
   - psycopg2
   - boost 
+  - boost-cpp 
   - libboost 
   - swig
   - quantlib 
