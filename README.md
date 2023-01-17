@@ -29,3 +29,12 @@ be removed are:
 * appnope=0.1.0
 * libgfortran=3.0.1
 * libcxx=4.0.1
+
+
+##########################
+ssh-keygen -t ed25519 -C "wasix01@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add  ~/.ssh/id_ed25519
+pbcopy < ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+git remote set-url origin git@github.com:wasix01/test-binder.git
