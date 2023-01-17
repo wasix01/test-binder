@@ -11,9 +11,11 @@ dependencies:
   - partd
   - bokeh
   - dask
-  - QuantLib
+  - psycopg2
+  - boost 
+  - libboost 
+  - swig
+  - quantlib 
+  - quantlib-python
   - jupyter
   - jupytext
-  - pandas
-  - numpy
-  - matplotlib
